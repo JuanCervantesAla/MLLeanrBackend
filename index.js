@@ -9,7 +9,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000',           // React local
     'http://localhost:5173',           // Vite local
-    'https://mllearn-583j.onrender.com',  // tu frontend desplegado (ajústalo)
+    'https://mllearn-1-jugb.onrender.com',  // tu frontend desplegado (ajústalo)
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
